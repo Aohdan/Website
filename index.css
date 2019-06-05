@@ -1,0 +1,111 @@
+.nav ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+li a:hover {
+    background-color: aqua;
+    color: red;
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+.intro h2 {
+   
+}
+p {
+    font-size: 1.2em;
+}
+footer a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+footer li {
+    list-style-type: none;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    position: relative;
+    background-color: grey;
+}
+.Lfooter {
+    justify-content: space-between;
+    width: 50%
+}
+.Rfooter {
+    justify-content: space-between;
+    width: 50%;
+}
+.pic {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.pic img{
+    border-radius: 25px;
+    max-width: 300px;
+    min-width: 200px;
+    
+}
+.welcome {
+    width: 70%;
+}
+body {
+    background-image: url(images/background.jpg);
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.Letters{
+    width: 50%;
+}
+.Mike ul{
+    list-style-type: none;
+}
+.exp {
+    width: 50%;
+}
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+.Letters img {
+    width: 40%;
+}
+.schools{
+    display: flex;
+    justify-content: space-between;
+}
+.schools {
+    text-align: center;
+}
+.LB {
+    width: 50%;
+}
+.UCI{
+    width: 50%;
+}
+.Intrest {
+    text-align: center;
+}
